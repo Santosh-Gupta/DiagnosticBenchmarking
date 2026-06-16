@@ -36,9 +36,16 @@ result **verbatim** (the gold is never relaxed) or drops cases that cannot be ma
 
 ## License
 
-- **Benchmark data:** CC-BY 4.0; each case attributes its source article via the `provenance` field.
-  Only strictly `cc_by` sources are included (no NonCommercial / ShareAlike / NoDerivs).
-- **Code:** see `LICENSE` (or repository settings).
+Both the code and the data are open and **free for any use, including commercial**, with attribution
+— consistent with the benchmark's deliberate sourcing from commercially-usable CC-BY material.
+
+- **Code & tooling:** [MIT](LICENSE).
+- **Benchmark data:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/); each case attributes
+  its source article via the `provenance` field. Only strictly `cc_by` sources are included (no
+  NonCommercial / ShareAlike / NoDerivs), so redistribution and adaptation are permitted with
+  attribution. Pointer-only metadata files (`data/pointer_benchmarks/`) carry bibliographic pointers
+  (DOI/PMID/PMCID/title) to locked or license-unknown sources — no source text — and impose no
+  additional use restriction.
 
 ## Quick start
 

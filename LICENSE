@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 Santosh Gupta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON BENCHMARK DATA LICENSING
+
+The MIT license above governs the source code and tooling in this repository.
+
+The benchmark *data* (the curated case challenges and their labels) is released
+under the Creative Commons Attribution 4.0 International license (CC-BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Each case is derived from an open-access, CC-BY-licensed published source article
+and preserves attribution to that source via its `provenance` metadata
+(DOI / PMID / PMCID / title / license evidence). Because only strictly CC-BY
+sources are included, the data may be redistributed and adapted — including for
+commercial purposes — provided attribution is given.
+
+Pointer-only files under `data/pointer_benchmarks/` contain bibliographic
+pointers (DOI/PMID/PMCID/title) to locked or license-unknown sources. They store
+no source text and impose no additional restriction beyond ordinary copyright in
+the bibliographic metadata itself.

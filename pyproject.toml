@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Pipelines for license-aware PMC neurology benchmark and training corpora."
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
 authors = [
   { name = "NeurologyBM contributors" }
 ]
