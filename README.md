@@ -8,6 +8,10 @@ best next step). Cases are derived from peer-reviewed case reports where the dia
 established, and every case is gated by a determinacy audit so the answer is reachable from the prompt
 alone — not "failed" simply because it was unanswerable.
 
+Currently, these case challenges are being used to optimize a diagnostic harness I am developing here
+
+https://github.com/Santosh-Gupta/ClinicalOrchestra
+
 ## The benchmark
 
 [`data/public_benchmark/neuro_psych_cases.jsonl`](data/public_benchmark/neuro_psych_cases.jsonl) —
