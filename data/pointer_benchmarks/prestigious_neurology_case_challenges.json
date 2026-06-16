@@ -1,0 +1,344 @@
+{
+  "snapshot_date": "2026-05-28",
+  "policy": {
+    "tier": "pointer_only_locked_benchmark_leads",
+    "training_allowed": false,
+    "public_benchmark_text_allowed": false,
+    "store_text": false,
+    "note": "Store only citations, URLs, source series, and triage tags unless permission or article-level reusable license is obtained."
+  },
+  "source_leads": [
+    {
+      "key": "nejm_case_challenges",
+      "source": "New England Journal of Medicine",
+      "series": "Case Challenges",
+      "url": "https://www.nejm.org/case-challenges",
+      "priority": 1,
+      "status": "pointer_only",
+      "neurology_value": "Very high; these are staged Case Records prompts before final diagnosis publication."
+    },
+    {
+      "key": "nejm_case_records_mgh",
+      "source": "New England Journal of Medicine",
+      "series": "Case Records of the Massachusetts General Hospital",
+      "url": "https://www.nejm.org/medical-index/case-records-of-the-massachusetts-general-hospital",
+      "priority": 1,
+      "status": "pointer_only",
+      "neurology_value": "Gold-standard clinicopathologic diagnostic reasoning cases; often the underlying full cases for NEJM Case Challenges."
+    },
+    {
+      "key": "jama_network_clinical_challenge",
+      "source": "JAMA Network",
+      "series": "Clinical Challenge",
+      "url": "https://jamanetwork.com/collections/44038/clinical-challenge",
+      "priority": 1,
+      "status": "pointer_only",
+      "neurology_value": "High-quality diagnostic challenge collection; source page lists 62 JAMA Neurology Clinical Challenge items at snapshot time."
+    },
+    {
+      "key": "jama_neurology_clinical_challenge",
+      "source": "JAMA Neurology",
+      "series": "Clinical Challenge",
+      "url": "https://jamanetwork.com/journals/jamaneurology/articlepdf/2293513/ned150013.pdf",
+      "priority": 1,
+      "status": "pointer_only",
+      "neurology_value": "Purpose-built short diagnostic neurology challenge format with confirmed diagnoses."
+    },
+    {
+      "key": "neurology_clinical_reasoning",
+      "source": "Neurology",
+      "series": "Resident & Fellow: Clinical Reasoning",
+      "url": "https://www.neurology.org/resident-fellow/clinical-reasoning",
+      "priority": 1,
+      "status": "license_review",
+      "neurology_value": "Large neurology-first staged reasoning series; source page listed 187 Clinical Neurology records at snapshot time."
+    },
+    {
+      "key": "neurology_mystery_case",
+      "source": "Neurology",
+      "series": "Mystery Case",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000010829",
+      "priority": 1,
+      "status": "license_review",
+      "neurology_value": "Resident & Fellow case format explicitly intended to develop clinical reasoning skills."
+    },
+    {
+      "key": "neurology_pearls_oy_sters",
+      "source": "Neurology",
+      "series": "Pearls & Oy-sters",
+      "url": "https://www.neurology.org/action/doSearch?AllField=Pearls+%26+Oy-sters",
+      "priority": 1,
+      "status": "license_review",
+      "neurology_value": "Case-based clue-and-pitfall articles with diagnostic pearls, often free access but not automatically reusable."
+    },
+    {
+      "key": "practical_neurology_difficult_case",
+      "source": "Practical Neurology",
+      "series": "A difficult case",
+      "url": "https://pn.bmj.com/content/current",
+      "priority": 2,
+      "status": "pointer_only",
+      "neurology_value": "BMJ neurology case-reasoning format; high-value but publisher-controlled unless individual license permits."
+    },
+    {
+      "key": "jhm_clinical_care_conundrum",
+      "source": "Journal of Hospital Medicine",
+      "series": "Clinical Care Conundrum",
+      "url": "https://shmpublications.onlinelibrary.wiley.com/journal/15535606",
+      "priority": 2,
+      "status": "pointer_only",
+      "neurology_value": "Staged expert diagnostic reasoning; use neurology-overlap cases as cross-domain controls."
+    },
+    {
+      "key": "jgim_exercises_clinical_reasoning",
+      "source": "Journal of General Internal Medicine",
+      "series": "Exercises in Clinical Reasoning",
+      "url": "https://link.springer.com/journal/11606",
+      "priority": 2,
+      "status": "pointer_only",
+      "neurology_value": "General medicine reasoning traces; useful for neurologic mimics and reasoning-style rubrics."
+    },
+    {
+      "key": "annals_internal_medicine_clinical_problem_solving",
+      "source": "Annals of Internal Medicine",
+      "series": "Clinical Problem-Solving",
+      "url": "https://www.acpjournals.org/journal/aim",
+      "priority": 2,
+      "status": "pointer_only",
+      "neurology_value": "Prestigious staged reasoning cases; use neurologic mimic cases for internal calibration."
+    },
+    {
+      "key": "bmj_endgames",
+      "source": "BMJ",
+      "series": "Endgames / Case Review / Spot Diagnosis",
+      "url": "https://www.bmj.com/archive",
+      "priority": 2,
+      "status": "pointer_only",
+      "neurology_value": "General high-prestige diagnostic challenge material; filter to neurology later."
+    }
+  ],
+  "case_leads": [
+    {
+      "id": "nejm_case_challenge_2026_memory_falls",
+      "source_key": "nejm_case_challenges",
+      "title": "A 64-Year-Old Woman with Fatigue, Memory Changes, and Falls",
+      "date": "2026-05-13",
+      "url": "https://www.nejm.org/do/10.1056/NEJMdo008509/full",
+      "linked_case_record": "Case Records of the Massachusetts General Hospital, May 28, 2026 issue",
+      "neurology_axis": ["cognitive_behavioral", "neuroimmunology_or_neuroinfectious", "neuro_oncology_mimic"],
+      "status": "active_or_recent_case_challenge"
+    },
+    {
+      "id": "nejm_case_14_2024_back_stiffness_falls",
+      "source_key": "nejm_case_challenges",
+      "title": "A 30-Year-Old Woman with Back Pain, Leg Stiffness, and Falls",
+      "date": "2024-04-24",
+      "url": "https://www.nejm.org/do/10.1056/NEJMdo002775/full/",
+      "doi": "10.1056/NEJMcpc2312733",
+      "neurology_axis": ["movement_disorder", "neuromuscular", "spinal_or_startle_syndrome"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_challenge_2024_sixth_nerve_palsy",
+      "source_key": "nejm_case_challenges",
+      "title": "A 67-Year-Old Woman with Alternating Sixth Cranial Nerve Palsy",
+      "date": "2024-02-13",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2024.02.13.100102/full/",
+      "neurology_axis": ["neuro_ophthalmology", "cranial_neuropathy", "autoimmune_mimic"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_38_2023_abnormal_movements_confusion",
+      "source_key": "nejm_case_challenges",
+      "title": "A 68-Year-Old Woman with Abnormal Movements and Confusion",
+      "date": "2023-11-27",
+      "doi": "10.1056/NEJMcpc2309349",
+      "neurology_axis": ["movement_disorder", "vascular_neurology", "neuropsychiatry"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_31_2023_involuntary_movements_unresponsiveness",
+      "source_key": "nejm_case_challenges",
+      "title": "A 79-Year-Old Man with Involuntary Movements and Unresponsiveness",
+      "date": "2023-09-25",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2023.09.25.100099/full/",
+      "doi": "10.1056/NEJMcpc2300973",
+      "neurology_axis": ["movement_disorder", "seizure_mimic", "vascular_neurology"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_challenge_2023_muscle_weakness_myalgia",
+      "source_key": "nejm_case_challenges",
+      "title": "A Woman with Muscle Weakness and Myalgia",
+      "date": "2023-01-01",
+      "url": "https://www.nejm.org/case-challenges",
+      "neurology_axis": ["neuromuscular", "toxic_metabolic", "rheumatologic_mimic"],
+      "status": "pointer_from_collection"
+    },
+    {
+      "id": "nejm_case_challenge_2023_dizziness_ams",
+      "source_key": "nejm_case_challenges",
+      "title": "A 76-Year-Old Man with Dizziness and Altered Mental Status",
+      "date": "2023-01-01",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2023.01.01.100096/full/",
+      "neurology_axis": ["encephalopathy", "toxic_metabolic", "seizure_mimic"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_challenge_2022_red_eyes_optic_disc_edema",
+      "source_key": "nejm_case_challenges",
+      "title": "An 11-Year-Old Girl with Redness of the Eyes",
+      "date": "2022-10-11",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2022.10.11.100094/full/",
+      "neurology_axis": ["neuro_ophthalmology", "pediatric_neurology", "infectious_or_inflammatory_mimic"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_7_2022_depression_falls",
+      "source_key": "nejm_case_challenges",
+      "title": "A 65-Year-Old Woman with Depression, Recurrent Falls, and Inability to Care for Herself",
+      "date": "2022-02-21",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2022.02.21.100090/full/",
+      "doi": "10.1056/NEJMcpc2115853",
+      "neurology_axis": ["neuropsychiatry", "cognitive_behavioral", "neuro_oncology_mimic"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_challenge_2021_transient_vision_loss",
+      "source_key": "nejm_case_challenges",
+      "title": "A 48-Year-Old Man with Transient Vision Loss",
+      "date": "2021-01-11",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2021.01.11.100085/full/",
+      "neurology_axis": ["neuro_ophthalmology", "vascular_neurology", "headache"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_39_2020_seizure_hypocalcemia",
+      "source_key": "nejm_case_challenges",
+      "title": "A 29-Month-Old Boy with Seizure and Hypocalcemia",
+      "date": "2020-09-25",
+      "doi": "10.1056/NEJMcpc2027078",
+      "neurology_axis": ["pediatric_neurology", "seizure", "metabolic_endocrine_mimic"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_32_2020_confusion_garbled_speech",
+      "source_key": "nejm_case_challenges",
+      "title": "A 63-Year-Old Man with Confusion, Fatigue, and Garbled Speech",
+      "date": "2020-08-07",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2004996",
+      "doi": "10.1056/NEJMcpc2004996",
+      "neurology_axis": ["neuroinfectious", "encephalitis_meningitis", "neuro_ophthalmology"],
+      "status": "closed_case_challenge"
+    },
+    {
+      "id": "nejm_case_27_2020_headache_gait_imbalance",
+      "source_key": "nejm_case_challenges",
+      "title": "A 53-Year-Old Woman with Headache and Gait Imbalance",
+      "date": "2020-05-01",
+      "url": "https://www.nejm.org/case-challenges",
+      "neurology_axis": ["headache", "gait_ataxia", "neuroinfectious_or_neuro_oncology_mimic"],
+      "status": "pointer_from_collection"
+    },
+    {
+      "id": "jama_neurology_2025_weakness_gait_dysfunction",
+      "source_key": "jama_neurology_clinical_challenge",
+      "title": "A 61-Year-Old Man With Weakness and Gait Dysfunction",
+      "date": "2025-01-21",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2828933",
+      "doi": "10.1001/jamaneurol.2024.4600",
+      "neurology_axis": ["leukodystrophy_or_neurogenetics", "neuromuscular", "cognitive_behavioral"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "jama_neurology_2025_limb_weakness_movements_hyperckemia",
+      "source_key": "jama_neurology_clinical_challenge",
+      "title": "A 62-Year-Old Man With Progressive Limb Weakness, Involuntary Movements, and HyperCKemia",
+      "date": "2025-09-15",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2838892",
+      "doi": "10.1001/jamaneurol.2025.3201",
+      "neurology_axis": ["neuromuscular", "movement_disorder", "neurogenetics"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "jama_neurology_2024_ophthalmoplegia_eom_hypertrophy",
+      "source_key": "jama_neurology_clinical_challenge",
+      "title": "Ophthalmoplegia With Isolated Extraocular Muscle Hypertrophy",
+      "date": "2024-01-08",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2813362",
+      "doi": "10.1001/jamaneurol.2023.5056",
+      "neurology_axis": ["neuro_ophthalmology", "cranial_neuropathy"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "jama_neurology_2022_acute_myelopathy_cutaneous_papules",
+      "source_key": "jama_neurology_clinical_challenge",
+      "title": "Acute Myelopathy in a Man With Cutaneous Papules",
+      "date": "2021-11-15",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2786349",
+      "doi": "10.1001/jamaneurol.2021.4194",
+      "neurology_axis": ["spinal_cord", "neuroinfectious_or_inflammatory_mimic"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "jama_neurology_2023_camptocormia_head_drop_dysphagia",
+      "source_key": "jama_neurology_clinical_challenge",
+      "title": "Progressive Camptocormia With Head Drop and Dysphagia",
+      "date": "2022-12-12",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2799184",
+      "doi": "10.1001/jamaneurol.2022.4441",
+      "neurology_axis": ["neuromuscular", "movement_disorder", "dysphagia"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "jama_2017_left_frontal_brain_mass",
+      "source_key": "jama_network_clinical_challenge",
+      "title": "A 24-Year-Old Man With a Left Frontal Brain Mass",
+      "date": "2017-02-07",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2600441",
+      "doi": "10.1001/jama.2016.19156",
+      "neurology_axis": ["neuro_oncology_mimic", "neuroinfectious", "headache_gait_ataxia"],
+      "status": "pointer_only"
+    },
+    {
+      "id": "neurology_mystery_case_recurrent_cerebral_ischemia_pregnancy",
+      "source_key": "neurology_mystery_case",
+      "title": "Mystery Case: Clinical Reasoning - Recurrent cerebral ischemia during pregnancies",
+      "date": "2020-09-09",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000010829",
+      "doi": "10.1212/WNL.0000000000010829",
+      "neurology_axis": ["vascular_neurology", "pregnancy", "rare_disease"],
+      "status": "license_review"
+    },
+    {
+      "id": "neurology_pearls_whipple_disease",
+      "source_key": "neurology_pearls_oy_sters",
+      "title": "Pearls & Oy-sters: A rare presentation of Whipple disease",
+      "date": "2020-02-03",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000008976",
+      "doi": "10.1212/WNL.0000000000008976",
+      "neurology_axis": ["neuroinfectious", "neuropsychiatry", "systemic_mimic"],
+      "status": "license_review"
+    },
+    {
+      "id": "neurology_pearls_pacns_recurrent_hemorrhage",
+      "source_key": "neurology_pearls_oy_sters",
+      "title": "Pearls & Oy-sters: Primary angiitis of the CNS presenting with recurrent intracranial hemorrhage",
+      "date": "2020-02-10",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000009047",
+      "doi": "10.1212/WNL.0000000000009047",
+      "neurology_axis": ["vascular_neurology", "neuroimmunology", "CNS_vasculitis"],
+      "status": "license_review"
+    },
+    {
+      "id": "neurology_pearls_rcvs_journey",
+      "source_key": "neurology_pearls_oy_sters",
+      "title": "Pearls & Oy-sters: A Journey Through Reversible Cerebral Vasoconstriction Syndrome",
+      "date": "2020-11-09",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000011194",
+      "doi": "10.1212/WNL.0000000000011194",
+      "neurology_axis": ["headache", "vascular_neurology", "diagnostic_error"],
+      "status": "license_review"
+    }
+  ]
+}

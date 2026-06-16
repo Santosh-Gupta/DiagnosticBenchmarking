@@ -1,0 +1,158 @@
+{
+  "snapshot_date": "2026-05-28",
+  "selection_policy": {
+    "tier": "pointer_only_initial_development",
+    "cases_per_domain": 5,
+    "training_allowed": false,
+    "public_benchmark_text_allowed": false,
+    "store_text": false,
+    "heuristics_doc": "docs/case_selection_heuristics.md",
+    "note": "Chosen for hard diagnostic and management reasoning. Store only pointers and metadata until rights are resolved."
+  },
+  "neurology": [
+    {
+      "rank": 1,
+      "id": "nejm_case_14_2024_back_stiffness_falls",
+      "source": "NEJM Case Challenge / Case Records of MGH",
+      "title": "A 30-Year-Old Woman with Back Pain, Leg Stiffness, and Falls",
+      "date": "2024-04-24",
+      "url": "https://www.nejm.org/do/10.1056/NEJMdo002775/full/",
+      "doi": "10.1056/NEJMcpc2312733",
+      "domain": "neurology",
+      "neurology_axis": ["movement_disorder", "spinal_cord", "neuromuscular", "falls"],
+      "estimated_difficulty_score": 19,
+      "why_selected": "High-prestige challenge format with localization, progressive motor symptoms, falls, and a broad differential across spinal, neuromuscular, autoimmune, and movement-disorder mimics."
+    },
+    {
+      "rank": 2,
+      "id": "nejm_case_38_2023_abnormal_movements_confusion",
+      "source": "NEJM Case Challenge / Case Records of MGH",
+      "title": "A 68-Year-Old Woman with Abnormal Movements and Confusion",
+      "date": "2023-11-27",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMcpc2309349",
+      "doi": "10.1056/NEJMcpc2309349",
+      "domain": "neurology",
+      "neurology_axis": ["movement_disorder", "encephalopathy", "neuropsychiatry", "vascular_or_autoimmune_mimic"],
+      "estimated_difficulty_score": 19,
+      "why_selected": "Forces the agent to distinguish abnormal movements, delirium/encephalopathy, psychiatric-appearing symptoms, medication/toxic etiologies, and structural or vascular disease."
+    },
+    {
+      "rank": 3,
+      "id": "nejm_case_31_2023_involuntary_movements_unresponsiveness",
+      "source": "NEJM Case Challenge / Case Records of MGH",
+      "title": "A 79-Year-Old Man with Involuntary Movements and Unresponsiveness",
+      "date": "2023-09-25",
+      "url": "https://www.nejm.org/do/10.1056/do.feature.2023.09.25.100099/full/",
+      "doi": "10.1056/NEJMcpc2300973",
+      "domain": "neurology",
+      "neurology_axis": ["movement_disorder", "seizure_mimic", "coma_unresponsiveness", "vascular_neurology"],
+      "estimated_difficulty_score": 18,
+      "why_selected": "Good early test for seizure versus movement disorder versus encephalopathy reasoning, with high risk of premature closure on a single syndrome label."
+    },
+    {
+      "rank": 4,
+      "id": "nejm_case_32_2020_confusion_garbled_speech",
+      "source": "NEJM Case Challenge / Case Records of MGH",
+      "title": "A 63-Year-Old Man with Confusion, Fatigue, and Garbled Speech",
+      "date": "2020-08-07",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2004996",
+      "doi": "10.1056/NEJMcpc2004996",
+      "domain": "neurology",
+      "neurology_axis": ["encephalitis_meningitis", "neuroinfectious", "aphasia_or_dysarthria", "systemic_mimic"],
+      "estimated_difficulty_score": 18,
+      "why_selected": "Strong text-first case for encephalopathy and language/speech localization, with systemic and infectious mimics that should drive staged evidence updating."
+    },
+    {
+      "rank": 5,
+      "id": "jama_neurology_2025_limb_weakness_movements_hyperckemia",
+      "source": "JAMA Neurology Clinical Challenge",
+      "title": "A 62-Year-Old Man With Progressive Limb Weakness, Involuntary Movements, and HyperCKemia",
+      "date": "2025-09-15",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2838892",
+      "doi": "10.1001/jamaneurol.2025.3201",
+      "domain": "neurology",
+      "neurology_axis": ["neuromuscular", "movement_disorder", "neurogenetics", "hyperckemia"],
+      "estimated_difficulty_score": 18,
+      "why_selected": "Hard subspecialty neurology challenge spanning muscle disease, movement phenomenology, genetics, and lab interpretation."
+    }
+  ],
+  "psychiatry": [
+    {
+      "rank": 1,
+      "id": "nejm_case_34_2022_covid_delusions",
+      "source": "NEJM Case Records of MGH",
+      "title": "A 57-Year-Old Woman with Covid-19 and Delusions",
+      "date": "2022-11-03",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2115857",
+      "doi": "10.1056/NEJMcpc2115857",
+      "domain": "psychiatry",
+      "psychiatry_axis": ["psychosis", "catatonia", "delusional_syndrome", "medical_mimic"],
+      "estimated_difficulty_score": 20,
+      "why_selected": "Very hard neuropsychiatric case requiring psychiatric diagnosis, medical mimic exclusion, infectious/postinfectious reasoning, and management of severe delusional/catatonic symptoms."
+    },
+    {
+      "rank": 2,
+      "id": "nejm_case_5_2019_delusional_thinking_paresthesia",
+      "source": "NEJM Case Records of MGH / MGH Psychiatry Grand Rounds",
+      "title": "A 48-Year-Old Woman with Delusional Thinking and Paresthesia of the Right Hand",
+      "date": "2019-02-07",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc1807495",
+      "doi": "10.1056/NEJMcpc1807495",
+      "domain": "psychiatry",
+      "psychiatry_axis": ["psychosis", "somatic_symptoms", "neurologic_mimic", "medical_psychiatric_boundary"],
+      "estimated_difficulty_score": 19,
+      "why_selected": "Excellent boundary case: a psychiatric presentation with focal sensory symptoms, forcing broad medical, neurologic, substance, and primary psychiatric differential diagnosis."
+    },
+    {
+      "rank": 3,
+      "id": "jama_psychiatry_2018_severe_intractable_ocd",
+      "source": "JAMA Psychiatry Clinical Challenge",
+      "title": "Severe Intractable Contamination-Based Obsessive-Compulsive Disorder",
+      "date": "2018-06-13",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2696593",
+      "doi": "10.1001/jamapsychiatry.2018.0927",
+      "domain": "psychiatry",
+      "psychiatry_axis": ["ocd", "treatment_resistance", "risk_benefit_management", "neuromodulation_or_advanced_treatment"],
+      "estimated_difficulty_score": 18,
+      "why_selected": "Hard management-reasoning case for treatment resistance, severity assessment, stepwise therapy, and balancing risk/benefit when ordinary algorithms have failed."
+    },
+    {
+      "rank": 4,
+      "id": "jama_psychiatry_2018_child_self_injury_rare_genomic_variant",
+      "source": "JAMA Psychiatry Clinical Challenge",
+      "title": "Self-injury in a Child With a Rare Genomic Variant",
+      "date": "2018-02-14",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2675369",
+      "doi": "10.1001/jamapsychiatry.2017.4677",
+      "domain": "psychiatry",
+      "psychiatry_axis": ["child_psychiatry", "self_injury", "neurodevelopment", "genomic_syndrome"],
+      "estimated_difficulty_score": 18,
+      "why_selected": "Tests child psychiatry plus neurodevelopment/genetics reasoning, where behavior, medical syndrome, medication, and environmental formulation all matter."
+    },
+    {
+      "rank": 5,
+      "id": "jama_psychiatry_2018_college_student_mild_mental_health_problems",
+      "source": "JAMA Psychiatry Clinical Challenge",
+      "title": "A College Student With Mild Mental Health Problems",
+      "date": "2018-09-12",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2703424",
+      "doi": "10.1001/jamapsychiatry.2018.2486",
+      "domain": "psychiatry",
+      "psychiatry_axis": ["early_psychosis", "clinical_high_risk", "prognosis", "preventive_intervention"],
+      "estimated_difficulty_score": 17,
+      "why_selected": "Difficult because the right reasoning is probabilistic and longitudinal rather than a simple DSM label; useful for uncertainty calibration and avoiding overdiagnosis."
+    }
+  ],
+  "near_misses": [
+    {
+      "id": "nejm_case_39_2020_seizure_hypocalcemia",
+      "title": "A 29-Month-Old Boy with Seizure and Hypocalcemia",
+      "reason_not_selected": "Excellent pediatric seizure/metabolic case, but the first neurology set already has several altered-awareness/movement cases."
+    },
+    {
+      "id": "jama_psychiatry_first_episode_schizophrenia",
+      "title": "Treatment of First-Episode Schizophrenia in a Young Woman",
+      "reason_not_selected": "High educational value but somewhat less diagnostically ambiguous than the selected psychiatry boundary and treatment-resistant cases."
+    }
+  ]
+}

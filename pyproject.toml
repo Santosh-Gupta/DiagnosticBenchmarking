@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurologybm"
+version = "0.1.0"
+description = "Pipelines for license-aware PMC neurology benchmark and training corpora."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "NeurologyBM contributors" }
+]
+dependencies = []
+
+[project.scripts]
+neurologybm = "neurologybm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

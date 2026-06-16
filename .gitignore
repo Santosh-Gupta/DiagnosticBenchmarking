@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Downloaded full-text corpora can be large and license-sensitive.
+data/pmc/
+data/huggingface/
+data/frontiers/
+!data/.gitkeep
+
+# Secrets — never commit. (Keys currently live in the sibling ClinicalHarness repo, but guard anyway.)
+.env
+.env.*
+*.env.local
+
+# Local-only case text and API traces for locked or sensitive sources.
+local_cases/
+local_runs/
+local_api_logs/
+
+# Docs default to PRIVATE — they reference paywalled NEJM cases, NC-licensed sources, acquisition
+# queues, and costs. Only the explicitly vetted/scrubbed docs/public/ set is published.
+docs/*
+!docs/public/
+docs/DO NOT COMMIT TO GITHUB/
